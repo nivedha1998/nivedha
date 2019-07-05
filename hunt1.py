@@ -1,7 +1,7 @@
 from collections import Counter
-N=int(input())
-n=list(map(int,input().split()))
-n3=Counter(n)
+n1=int(input())
+n2=list(map(int,input().split()))
+n3=Counter(n2)
 list=[]
 for a in n3.items():
   if(a[1] != 1):
