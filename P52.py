@@ -1,0 +1,12 @@
+s1,r1=list(map(int,input().split()))
+s2,r2=list(map(int,input().split()))  
+s3,r3=list(map(int,input().split()))  
+s4,r4=list(map(int,input().split())) 
+a=r2-r1
+b=r3-r4
+c=s3-s2
+d=s4=s1
+if(a==b==c==d):
+  print("yes")
+else:
+  print("no")
