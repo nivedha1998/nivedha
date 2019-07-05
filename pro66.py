@@ -1,5 +1,5 @@
 a, b, f, k = map(int, input().split())
-cnt = 0
+c = 0
 d = b-f
 if (d >= 0):
     s = (a-f)*2
@@ -8,12 +8,12 @@ if (d >= 0):
              s =s/ 2
         if (d < s):
             d= b
-            cnt += 1
+            c += 1
         d = d - s
         if (d < 0):
-            cnt = -1
+            c = -1
             break
         s = 2*a - s
-    print (cnt)
+    print (c)
 else:
     print (-1)
