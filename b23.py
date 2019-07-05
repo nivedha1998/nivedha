@@ -1,3 +1,3 @@
-bb=int(input())
-rr=list(map(int,input().split()))[:bb]
-print(min(rr))
+cc=int(input())
+tt=list(map(int,input().split()))[:cc]
+print(min(tt))
