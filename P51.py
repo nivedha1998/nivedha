@@ -1,8 +1,8 @@
-n1=int(input())
+n=int(input())
 li=list(map(int,input().split()))
 n2=[]
 n3=1
-for i in range(n1):
+for i in range(n):
   v=li[i:]
   ans=len(v)
   for j in range(ans-1):
