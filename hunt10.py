@@ -1,4 +1,4 @@
-nm=input().split()
+n=input().split()
 A=input().split()
 B=input().split()
 A.sort()
