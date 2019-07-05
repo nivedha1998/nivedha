@@ -1,7 +1,7 @@
-ni=list(map(str,input().split()))
-hi=[]
-for i in ni:
+n=list(map(str,input().split()))
+h=[]
+for i in n:
 	k=i[::-1]
-	hi.append(k)
-for j in hi:
+	h.append(k)
+for j in h:
 	print(j,end=" ")
