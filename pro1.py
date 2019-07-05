@@ -1,32 +1,12 @@
-def findMinLength(arr, n): 
-  min = len(arr[0]) 
-   for i in range(1,n): 
-        if (len(arr[i])< min): 
-            min = len(arr[i]) 
-   return(min) 
-def commonPrefix(arr, n): 
- minlen = findMinLength(arr, n) 
- result="" 
- for i in range(minlen): 
-      
-        current = arr[0][i] 
-   
-        for j in range(1,n): 
-            if (arr[j][i] != current): 
-                return result 
-   
-       
-        result = result+current 
-   
-    return (result) 
-    if __name__ == "__main__": 
-      
-    arr = ["vishal", "vidharba"] 
-    n = len(arr) 
-   
-    ans = commonPrefix (arr, n) 
-   
-    if (len(ans)): 
-        print(" ",ans) 
-    else: 
-        print("error") 
+b = int(input())
+s=[]
+for i in range(0,b):
+ lan=input()
+ s.append(lan)
+li=[]
+for i in zip(*s):
+ if(i.count(i[0])==len(i)):
+  li.append(i[0])
+ else:
+  break
+print(''.join(li))
