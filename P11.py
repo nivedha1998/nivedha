@@ -1,5 +1,4 @@
-n1 = int(input())
-if n1 % 2 == 0:
-    print(n1 * (n1//2) - n1//2)
-else:
-    print(n1 * (n1//2))
+g1=int(input())
+h1=g1/2
+i1=g1-1
+print(int(h1*i1))
