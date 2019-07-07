@@ -4,9 +4,9 @@ N1=int(N1)
 P1=int(P1)
 Q1=int(Q1)
 R1=int(R1)
-c=[]
+c1=[]
 for i in range(0,len(lists)):
     for j in range(i,len(lists)):
         for k in range(j,len(lists)):
-            c.append(P1*lists[i]+Q1*lists[j]+R1*lists[k])
-print(max(c))
+            c1.append(P1*lists[i]+Q1*lists[j]+R1*lists[k])
+print(max(c1))
