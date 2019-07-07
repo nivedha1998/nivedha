@@ -10,7 +10,7 @@ while k1>=0 and len(t)>0:
     mindex=t.index(max(t))
     if k1>=p[mindex]:
         c=c+v[mindex]
-        k=k-p[mindex]
+        k1=k1-p[mindex]
     p.pop(mindex)
     v.pop(mindex)
     t.pop(mindex)
