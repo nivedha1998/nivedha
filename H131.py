@@ -1,4 +1,4 @@
- a = int(input())
+a = int(input())
 b = list(map(int,input().split()))
 c = sorted(b)
 d = c[::-1]
