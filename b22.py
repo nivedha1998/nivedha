@@ -1,3 +1,3 @@
-aa = int(input())
-ss = list(map(int, input().split()))
-print(max(ss))
+A= int(input())
+S = list(map(int, input().split()))
+print(max(S))
