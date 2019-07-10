@@ -1,10 +1,16 @@
-N = input()
-array = []
-list = []
-for i in N:
-  array.append(int(i))
-array.append(int(array[0]))
-for j in range(0,len(array) - 1):
-  b = array[j] ** array[j + 1]
-  list.append(b)
-print(sum(list)
+A=int(input())
+b=str(A)
+k=[]
+s=[]
+summ=0
+for i in range(0,len(b)):
+    s.append(b[i])
+k=list(map(int,s))
+if len(k)==1:
+    print(k[0]**2)
+else:
+    for i in range(0,len(k)-1):
+        summ=summ+(k[i]**k[i+1])
+    else:
+        summ=summ+(k[-1]**k[0])
+    print(summ)
