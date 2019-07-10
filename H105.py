@@ -1,0 +1,5 @@
+N = int(input())
+l = list(int(x) for x in str(N))
+po = len(l)
+fin = list(map(lambda x:x**po,l))
+print(sum(fin))
