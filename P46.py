@@ -1,13 +1,13 @@
-A=int(input())
-B=list(map(int,input().split()))
-a=0
-b=0
-B.sort(reverse=True)
-for i in B:
-  B=a+i
-  if b>B:
-    a=B
+n=int(input())
+liss=list(map(int,input().split()))
+a_ha=0
+b_ha=0
+liss.sort(reverse=True)
+for i in liss:
+  m=a_ha+i
+  if b_ha>m:
+    a_ha=m
   else:
-    a=b
-    b=B
-print(a,b)
+    a_ha=b_ha
+    b_ha=m
+print(a_ha,b_ha)
