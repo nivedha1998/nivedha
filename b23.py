@@ -1,3 +1,3 @@
-cc=int(input())
-tt=list(map(int,input().split()))[:cc]
-print(min(tt))
+C=int(input())
+T=list(map(int,input().split()))[:C]
+print(min(T))
