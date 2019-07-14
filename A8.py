@@ -1,0 +1,6 @@
+F,D= map(list,input().split())
+F[0] = F[0].upper()
+D[0] = D[0].upper()
+fstr = "".join(F)
+dstr = "".join(D)
+print(fstr,dstr)
