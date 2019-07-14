@@ -1,8 +1,10 @@
 N=int(input())
-d=[]
-for i in range(N):
-    s=[int(N) for a in input().split()]
-    d.append(s)
-e=sum(d[i][i] for i in range(N))
-f=sum(d[i][N-i-1] for i in range(N))
-print(e*f)
+arr1=[list(map(int,input().split(" "))) for i in range(N)]
+i,j=0,len(arr1)-1
+a,b=0,0
+while i<len(arr1):
+    a+=arr1[i][i]
+    b+=arr1[i][j]
+    i+=1
+    j-=1
+print(a*b)
